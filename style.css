@@ -1,0 +1,60 @@
+button {
+    cursor: pointer;
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 42%;
+    width: 15%;
+    height: 80px;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20pt;
+    font-weight: bolder;
+    color: rgb(187, 187, 187);
+    border-style: solid;
+    border-width: 8px;
+    border-radius: 90px;
+    border-color: rgb(187, 187, 187);
+    letter-spacing: 3px;
+
+}
+
+button:hover {
+    transition: 0.3s;
+    margin-top: 22.5%;
+    margin-left: 40%;
+    width: 20%;
+    height: 100px;
+    background-color: #1B1B1B;
+    color: white;
+    font-size: 30pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    border-width: 0px;
+    border-radius: 50px;
+    box-shadow:
+        0px 20px 20px rgba(0, 0, 0, 0.27);
+
+
+}
+
+#assinatura {
+    margin-top: -4%;
+    position: absolute;
+    width: 6%;
+    clip-path: circle(40% at 50% 50%);
+    margin-left: 6%;
+}
+
+#lucca p {
+    position: absolute;
+    margin-top: -1.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+#lucca {
+    margin-top: 48%;
+    display: inline-block;
+    margin-left: 45%;
+}
