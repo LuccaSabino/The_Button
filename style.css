@@ -58,3 +58,33 @@ button:hover {
     display: inline-block;
     margin-left: 45%;
 }
+
+
+/* ---------------mobile-------------- */
+
+@media screen and (max-width: 900px) {
+
+    button {
+        margin-top: 70% !important;
+        margin-left: 17% !important;
+        width: 60% !important;
+
+    }
+
+    #assinatura {
+        margin-top: 90% !important;
+        position: absolute;
+        width: 30% !important;
+        margin-left: 6%;
+    }
+
+    #lucca p {
+        margin-top: 101% !important;
+        margin-left: -22%;
+    }
+
+    #lucca {
+        margin-top: 80% !important;
+        margin-left: 45%;
+    }
+}
